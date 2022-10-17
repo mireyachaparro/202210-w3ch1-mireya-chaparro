@@ -1,6 +1,6 @@
 import { Character } from './character.js';
 
-export class adviser extends Character {
+export class Adviser extends Character {
     advise: string;
     constructor(name: string, family: string, age: number, adviser: string) {
         super(name, family, age);

@@ -1,7 +1,7 @@
-import { king } from './king.js';
-import { adviser } from './adviser.js';
-import { fighter } from './fighter.js';
-import { squire } from './squire.js';
+import { King } from './king.js';
+import { Adviser } from './adviser.js';
+import { Fighter } from './fighter.js';
+import { Squire } from './squire.js';
 
 export class Character {
     name: string;
@@ -10,8 +10,8 @@ export class Character {
     lifeStatus: boolean;
     message: string;
     static serie = 'Game of Thrones';
-    adviser: king | fighter | adviser | squire | null;
-    protect: fighter | null;
+    adviser: King | Fighter | Adviser | Squire | null;
+    protect: Fighter | null;
     constructor(name: string, family: string, age: number) {
         //no se le pasa el estado porque al principio siempre va a estar vivo
         this.name = name;

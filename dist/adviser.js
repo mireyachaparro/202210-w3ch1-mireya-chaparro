@@ -1,5 +1,5 @@
 import { Character } from './character.js';
-export class adviser extends Character {
+export class Adviser extends Character {
     constructor(name, family, age, adviser) {
         super(name, family, age);
         this.advise = adviser;

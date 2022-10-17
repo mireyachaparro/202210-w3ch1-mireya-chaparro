@@ -1,5 +1,5 @@
 import { Character } from './character.js';
-export class fighter extends Character {
+export class Fighter extends Character {
     constructor(name, family, age, weapon, skill) {
         super(name, family, age);
         this.weapon = weapon;

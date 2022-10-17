@@ -1,6 +1,6 @@
 import { Character } from './character.js';
 
-export class king extends Character {
+export class King extends Character {
     kingdomYears: number;
     constructor(
         name: string,
@@ -13,4 +13,3 @@ export class king extends Character {
         this.message = 'Vais a morir todos';
     }
 }
-
