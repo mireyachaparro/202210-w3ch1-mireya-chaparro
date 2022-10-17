@@ -1,14 +1,14 @@
-import { adviser } from './adviser.js';
-import { fighter } from './fighter.js';
-import { king } from './king.js';
-import { squire } from './squire.js';
+import { Adviser } from './adviser.js';
+import { Fighter } from './fighter.js';
+import { King } from './king.js';
+import { Squire } from './squire.js';
 
-const characters = [
-    new king('Joffrey', 'Baratheon', 54, 4),
-    new fighter('Jaime', 'Lannister', 35, 'AK47', 8),
-    new fighter('Daenerys', 'Targaryen', 28, 'destornillador', 7),
-    new adviser('Tyrion', 'Lannister', 60, 'Daenerys'),
-    new squire('Bronn ', '', 60, 'Jaime', 6),
+export const characters = [
+    new King('Joffrey', 'Baratheon', 54, 4),
+    new Fighter('Jaime', 'Lannister', 35, 'AK47', 8),
+    new Fighter('Daenerys', 'Targaryen', 28, 'destornillador', 7),
+    new Adviser('Tyrion', 'Lannister', 60, 'Daenerys'),
+    new Squire('Bronn ', '', 60, 'Jaime', 6),
 ];
 
 characters[3].adviser = characters[2];

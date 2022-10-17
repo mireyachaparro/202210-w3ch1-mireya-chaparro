@@ -1,6 +1,6 @@
 import { Character } from './character.js';
 
-export class squire extends Character {
+export class Squire extends Character {
     protector: string;
     makeBall: number;
     constructor(
