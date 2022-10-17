@@ -1,4 +1,4 @@
-import { Character } from './character';
+import { Character } from './character.js';
 
 export class king extends Character {
     kingdomYears: number;
@@ -13,3 +13,4 @@ export class king extends Character {
         this.message = 'Vais a morir todos';
     }
 }
+

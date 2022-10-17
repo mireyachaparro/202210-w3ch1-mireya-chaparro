@@ -1,5 +1,4 @@
 export class Character {
-    //friend: king | null;
     constructor(name, family, age) {
         //no se le pasa el estado porque al principio siempre va a estar vivo
         this.name = name;
@@ -7,7 +6,8 @@ export class Character {
         this.age = age;
         this.lifeStatus = true;
         this.message = '';
-        //this.friend = null
+        this.adviser = null;
+        this.protect = null;
     }
     comunicate() {
         return this.message;
